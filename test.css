@@ -259,10 +259,9 @@ a:hover {
 h2 {
 	text-align: left;
 	font-size: 51px;
-	font-weight: 00;
 	color: black;
+	margin-left: 2.5%;
 	margin-top: -2%;
-	/*margin-top: 3%;*/ /*Test for com*/
 }
 
 h3 {
