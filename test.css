@@ -321,6 +321,11 @@ li:hover {
 	padding-left: 3%;
 }
 
+.poster {
+	width: 85%;
+    margin: 3% 8% 3% 0%;
+}
+
 }
 
 /*Desktop*/
@@ -406,7 +411,7 @@ td, th {
 
 .poster {
 	width: 80%;
-    margin: 3% 0% 3% 5%;
+    margin: 3% 8% 3% 0%;
 }
 }
 
