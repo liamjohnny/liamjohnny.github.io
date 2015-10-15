@@ -242,6 +242,10 @@ a:hover {
 	margin-right: 2%;
 }
 
+.poster {
+	width: 88%;
+}
+
 /*Tablet*/
 @media (min-width: 768px) { 
 .navbar-nav {
