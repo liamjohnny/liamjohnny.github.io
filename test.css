@@ -248,6 +248,10 @@ a:hover {
     margin: 3% 5% 3% 5%;
 }
 
+.embed-container{
+	max-width: 93%;
+}
+
 /*Tablet*/
 @media (min-width: 768px) { 
 .navbar-nav {
@@ -412,6 +416,10 @@ td, th {
 .poster {
 	width: 80%;
     margin: 3% 8% 3% 0%;
+}
+
+.embed-container{
+	max-width: 88%;
 }
 }
 
