@@ -69,9 +69,9 @@ html, body {
     color: black;
     text-align: center;
 	background-color: rgb(246, 246, 246);
+	height: 100%;
 
 }
-
 
 hr {
 	margin-top: 10px;
@@ -252,6 +252,17 @@ a:hover {
 	max-width: 93%;
 }
 
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+.footer, .push {
+	height: 4em;
+}
+
 /*Tablet*/
 @media (min-width: 768px) { 
 .navbar-nav {
@@ -271,7 +282,7 @@ h2 {
 	font-size: 51px;
 	color: black;
 	margin-left: 2.5%;
-	margin-top: -2%;
+	margin-top: -1%;
 }
 
 h3 {
