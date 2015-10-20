@@ -259,9 +259,9 @@ a:hover {
 	margin: 0 auto -4em;
 }
 
-.footer, .push {
+/*.footer, .push {
 	height: 4em;
-}
+}*/
 
 /*Tablet*/
 @media (min-width: 768px) { 
@@ -456,6 +456,7 @@ td, th {
     }
 }
 
+/*index title soc*/
 .soc {
     overflow:hidden;
     margin:0; padding:0;
@@ -513,6 +514,67 @@ td, th {
     content:'x';
 }
 .soc-spotify:before {
+    content:'o';
+}
+
+/*footer soc*/
+.soc2 {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+    position: inherit;
+    text-align: center;
+}
+
+.soc2 li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc2 li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 23px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: black;
+    background-color: rgb(246, 246, 246);
+}
+
+.soc2-icon-last{
+    margin:0 !important;
+}
+
+.soc2-facebook:before {
+    content:'b';
+}
+.soc2-youtube:before {
+    content:'r';
+}
+.soc2-instagram:before {
+    content:'x';
+}
+.soc2-spotify:before {
     content:'o';
 }
 
