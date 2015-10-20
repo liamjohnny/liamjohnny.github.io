@@ -501,6 +501,10 @@ td, th {
     background-color: rgb(246, 246, 246);
 }
 
+.soc li a:hover {
+	color: #e21d27;
+}
+
 .soc-icon-last{
     margin:0 !important;
 }
@@ -560,6 +564,10 @@ td, th {
     margin-right: 10px;
     color: black;
     background-color: white;
+}
+
+.soc2 li a:hover {
+	color: #e21d27;
 }
 
 .soc2-icon-last{
