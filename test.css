@@ -460,7 +460,8 @@ td, th {
     overflow:hidden;
     margin:0; padding:0;
     list-style:none;
-    margin-top: 30%;
+    margin-top: 31%;
+    margin-left: -2%;
 }
 
 .soc li {
@@ -493,7 +494,7 @@ td, th {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    margin-right: 10px;
+    /*margin-right: 10px;*/
     color: black;
     background-color: rgb(246, 246, 246);
 }
