@@ -461,8 +461,9 @@ td, th {
     overflow:hidden;
     margin:0; padding:0;
     list-style:none;
-    margin-top: 31%;
-    margin-left: -2%;
+    margin-left: -5%;
+    position: initial;
+    text-align: left;
 }
 
 .soc li {
