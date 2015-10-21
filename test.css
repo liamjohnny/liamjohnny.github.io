@@ -209,7 +209,7 @@ p {
 
 .tour {
 	background-color: white;
-	margin-top: 35%;
+	/*margin-top: 35%;*/
 	position: relative;
 }
 
@@ -331,7 +331,7 @@ li:hover {
 	text-align: left;
 	font-weight: 300;
 	font-size: 70px;
-	position: fixed;
+	/*position: fixed;*/
 	color: black;
 	padding-left: 3%;
 	margin-top: -2%;
@@ -365,7 +365,7 @@ html, body {
 	text-align: left;
 	font-weight: 400;
 	font-size: 95px;
-	position: fixed;
+	/*position: fixed;*/
 	color: black;
 	padding-left: 3%;
 }
@@ -461,7 +461,7 @@ td, th {
     overflow:hidden;
     margin:0; padding:0;
     list-style:none;
-    margin-left: -5%;
+    margin-left: -2%;
     position: initial;
     text-align: left;
 }
