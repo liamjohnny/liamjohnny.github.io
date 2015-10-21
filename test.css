@@ -259,6 +259,15 @@ a:hover {
 	margin: 0 auto -4em;
 }
 
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+    margin-left: -2%;
+    position: initial;
+    text-align: center;
+}
+
 /*.footer, .push {
 	height: 4em;
 }*/
@@ -348,11 +357,11 @@ li:hover {
 @media (min-width: 992px) {
 
 html, body {
-    /*background-image: url("/LJ/images/background.png");
+    background-image: url("/images/wall.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position-y: 8.8%;*/
+	background-position-y: 8.8%;
 }
 
 .navbar-nav {
@@ -458,11 +467,6 @@ td, th {
 
 /*index title soc*/
 .soc {
-    overflow:hidden;
-    margin:0; padding:0;
-    list-style:none;
-    margin-left: -2%;
-    position: initial;
     text-align: left;
 }
 
