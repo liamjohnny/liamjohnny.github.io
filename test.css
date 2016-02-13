@@ -269,6 +269,20 @@ a:hover {
     text-align: center;
 }
 
+.album {
+	width: 56%;
+}
+
+.album_subtitle {
+    text-align: center;
+    font-size: 30px;
+    margin: 2% 19%;
+}
+
+.soc {
+	text-align: center;
+}
+
 /*.footer, .push {
 	height: 4em;
 }*/
@@ -289,7 +303,7 @@ a:hover {
 
 h2 {
 	text-align: left;
-	font-size: 51px;
+	font-size: 42px;
 	color: black;
 	margin-left: 2.5%;
 	margin-top: -1%;
@@ -350,6 +364,27 @@ li:hover {
 .poster {
 	width: 85%;
     margin: 3% 8% 3% 0%;
+}
+
+.album {
+	width: 22%;
+    position: absolute;
+    top: 7%;
+    left: 64%;
+}
+
+.album_subtitle {
+	width: 22%;
+    position: absolute;
+    top: 37%;
+    left: 64%;
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+}
+
+.soc {
+	text-align: left;
 }
 
 }
@@ -443,6 +478,58 @@ td, th {
 .embed-container{
 	max-width: 88%;
 }
+
+.album {
+	width: 22%;
+    position: absolute;
+    top: 7%;
+    left: 64%;
+}
+
+.album_subtitle {
+	width: 22%;
+    position: absolute;
+    top: 48%;
+    left: 64%;
+    text-align: center;
+    font-size: 25px;
+}
+
+@media (min-width: 1111px) {
+.album {
+	width: 22%;
+    position: absolute;
+    top: 7%;
+    left: 58%;
+}
+
+.album_subtitle {
+	width: 22%;
+    position: absolute;
+    top: 48%;
+    left: 58%;
+    text-align: center;
+    font-size: 25px;
+}
+}
+
+@media (min-width: 1200px) {
+.album {
+	width: 22%;
+    position: absolute;
+    top: 7%;
+    left: 58%;
+}
+
+.album_subtitle {
+	width: 22%;
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    text-align: center;
+    font-size: 25px;
+}
+}
 }
 
 
@@ -467,9 +554,9 @@ td, th {
 }
 
 /*index title soc*/
-.soc {
+/*.soc {
     text-align: left;
-}
+}*/
 
 .soc li {
     display:inline-block;
