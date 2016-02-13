@@ -1,5 +1,13 @@
 /*Phone*/
 
+#emf-logo, #emf-logo a {
+	display: none !important;
+}
+
+#emf-container .emf-head-widget, #emf-container li .emf-section-separator {
+	display: none;
+}
+
 .juicer-feed .j-meta a {
 	display: none;
 }
