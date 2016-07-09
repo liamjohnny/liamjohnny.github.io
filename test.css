@@ -582,6 +582,9 @@ li:hover {
 
 .soc {
 	text-align: left;
+    margin-left: -1%;
+    margin-bottom: 1%;
+    padding-left: 3%;
 }
 }
 
