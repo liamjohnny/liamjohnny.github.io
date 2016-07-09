@@ -218,7 +218,7 @@ p {
 .tour {
 	background-color: white;
 	/*margin-top: 35%;*/
-	position: relative;
+	/*position: relative;*/
 }
 
 a {
@@ -308,6 +308,12 @@ a:hover {
 
 .mobile {
 	display: none;
+}
+
+.tour {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 h2 {
