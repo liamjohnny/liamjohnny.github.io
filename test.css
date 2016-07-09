@@ -439,6 +439,10 @@ li:hover {
     margin: 0;
     padding: 0;
 }
+
+.soc {
+	text-align: left;
+}
 }
 
 /*Desktop*/
