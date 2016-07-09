@@ -546,6 +546,13 @@ li:hover {
     margin: 0;
 }
 
+.soc {
+	margin-left: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+
+}
+
 @media (min-width: 865px) {
 .title {
 	display: inherit;
