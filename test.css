@@ -292,6 +292,10 @@ a:hover {
 	text-align: center;
 }
 
+.tablet {
+	display: none;
+}
+
 /*.footer, .push {
 	height: 4em;
 }*/
@@ -310,10 +314,22 @@ a:hover {
 	display: none;
 }
 
+.tablet {
+	display: inherit;
+}
+
 .tour {
 	position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.title {
+	display: none;
+}
+
+.soc {
+	display: none;
 }
 
 h2 {
@@ -383,16 +399,16 @@ li:hover {
 }
 
 .album {
-	width: 22%;
+    width: 27%;
     position: absolute;
     top: 7%;
-    left: 42%;
+    left: 39%;
 }
 
 .album_subtitle {
-	width: 22%;
+    width: 22%;
     position: absolute;
-    top: 37%;
+    top: 41%;
     left: 42%;
     text-align: center;
     font-size: 25px;
@@ -403,6 +419,27 @@ li:hover {
 	text-align: left;
 }
 
+@media (min-width: 865px) {
+.tablet {
+	display: none;
+}
+
+.album {
+    width: 30%;
+    position: absolute;
+    top: 7%;
+    left: 39%;
+}
+
+.album_subtitle {
+    width: 30%;
+    position: absolute;
+    top: 52%;
+    left: 39%;
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+}
 }
 
 /*Desktop*/
@@ -496,16 +533,27 @@ td, th {
 }
 
 .album {
-	width: 22%;
+    width: 30%;
     position: absolute;
     top: 7%;
-    left: 42%;
+    left: 39%;
 }
 
 .album_subtitle {
-	width: 22%;
+    width: 28%;
     position: absolute;
-    top: 48%;
+    top: 52%;
+    left: 40%;
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+}
+
+@media (min-width: 1050px) {
+	.album_subtitle {
+	width: 25%;
+    position: absolute;
+    top: 58%;
     left: 42%;
     text-align: center;
     font-size: 25px;
@@ -513,17 +561,17 @@ td, th {
 
 @media (min-width: 1111px) {
 .album {
-	width: 22%;
+	width: 28%;
     position: absolute;
     top: 7%;
-    left: 58%;
+    left: 39%;
 }
 
 .album_subtitle {
-	width: 22%;
+	width: 23%;
     position: absolute;
-    top: 48%;
-    left: 58%;
+    top: 58%;
+    left: 42%;
     text-align: center;
     font-size: 25px;
 }
@@ -538,13 +586,30 @@ td, th {
 }
 
 .album_subtitle {
-	width: 22%;
+	width: 23%;
     position: absolute;
     top: 60%;
     left: 42%;
     text-align: center;
     font-size: 25px;
 }
+}
+
+@media (min-width: 1680px) {
+.album {
+	width: 28%;
+    position: absolute;
+    top: 7%;
+    left: 39%;
+}
+
+.album_subtitle {
+	width: 22%;
+    position: absolute;
+    top: 67%;
+    left: 42%;
+    text-align: center;
+    font-size: 25px;
 }
 }
 
