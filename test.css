@@ -327,9 +327,7 @@ a:hover {
     width: 100%;
 }
 
-.soc {
-	display: none;
-}
+
 
 h2 {
 	text-align: left;
@@ -413,10 +411,6 @@ li:hover {
     text-align: center;
     font-size: 30px;
     margin: 0;
-}
-
-.soc {
-	text-align: left;
 }
 
 @media (min-width: 865px) {
