@@ -316,16 +316,15 @@ a:hover {
 
 .tablet {
 	display: inherit;
+    text-align: center;
+    font-size: 71px;
+    font-weight: 500;
 }
 
 .tour {
 	position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-.title {
-	display: none;
 }
 
 .soc {
@@ -390,7 +389,7 @@ li:hover {
 	color: black;
 	padding-left: 3%;
 	margin-top: -2%;
-	display: inherit;
+	display: none;
 }
 
 .poster {
@@ -399,19 +398,20 @@ li:hover {
 }
 
 .album {
-    width: 27%;
-    position: absolute;
-    top: 7%;
-    left: 39%;
+    width: 64%;
+    /* position: absolute; */
+    /* top: 7%; */
+    /* left: 39%; */
 }
 
 .album_subtitle {
-    width: 22%;
-    position: absolute;
-    top: 41%;
-    left: 42%;
+    /* width: 22%; */
+    /* position: absolute; */
+    /* top: 41%; */
+    /* left: 42%; */
+    padding: 3% 24%;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     margin: 0;
 }
 
@@ -420,6 +420,10 @@ li:hover {
 }
 
 @media (min-width: 865px) {
+.title {
+	display: inherit;
+}
+
 .tablet {
 	display: none;
 }
@@ -439,6 +443,7 @@ li:hover {
     text-align: center;
     font-size: 25px;
     margin: 0;
+    padding: 0;
 }
 }
 
