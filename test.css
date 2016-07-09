@@ -534,14 +534,14 @@ td, th {
 	width: 22%;
     position: absolute;
     top: 7%;
-    left: 58%;
+    left: 42%;
 }
 
 .album_subtitle {
 	width: 22%;
     position: absolute;
     top: 50%;
-    left: 58%;
+    left: 42%;
     text-align: center;
     font-size: 25px;
 }
