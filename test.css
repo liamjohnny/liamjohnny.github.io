@@ -386,14 +386,14 @@ li:hover {
 	width: 22%;
     position: absolute;
     top: 7%;
-    left: 64%;
+    left: 42%;
 }
 
 .album_subtitle {
 	width: 22%;
     position: absolute;
     top: 37%;
-    left: 64%;
+    left: 42%;
     text-align: center;
     font-size: 25px;
     margin: 0;
