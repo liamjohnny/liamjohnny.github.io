@@ -250,6 +250,7 @@ h2 {
     font-weight: 300;
     color: black;
     margin: 0% 2% 0% 2%;
+    display: none;
 }
 
 h3 {
@@ -467,7 +468,7 @@ h2 {
 	font-size: 42px;
 	color: black;
 	margin-left: 2.5%;
-	margin-top: -1%;
+	margin-top: 2%;
 }
 
 h3 {
