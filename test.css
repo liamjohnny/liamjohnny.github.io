@@ -469,6 +469,7 @@ h2 {
 	color: black;
 	margin-left: 2.5%;
 	margin-top: 2%;
+    display: inherit;
 }
 
 h3 {
