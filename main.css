@@ -68,6 +68,13 @@
 	background-color: white;
 }
 
+.logo {
+    width: 200px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
 html, body {
   	font-family: 'Lato', sans-serif;
     color: black;
