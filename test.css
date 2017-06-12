@@ -140,7 +140,7 @@
 
 .logo {
     width: 200px;
-    float: left;
+    /*float: left;*/
     /*margin-left: 1%;*/
     /*margin-top: 1%;*/
 }
@@ -445,6 +445,14 @@ a:hover {
 
 /*Tablet*/
 @media (min-width: 768px) { 
+
+.logo {
+    width: 400px;
+    /*float: left;*/
+    /*margin-left: 1%;*/
+    /*margin-top: 1%;*/
+}
+
 .navbar-nav {
 	float: right;
 }
@@ -606,6 +614,14 @@ html, body {
     background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position-y: 8.8%;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+    /*margin-left: 1%;*/
+    /*margin-top: 1%;*/
+}
 }
 
 .navbar-nav {
