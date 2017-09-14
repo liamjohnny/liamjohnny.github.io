@@ -161,6 +161,7 @@
 .juicer-feed.loaded {
     padding: 0% 4% 0% 0%;
     max-width: 78%;
+    top: 0%;
 }
 
 .mobile {
@@ -447,7 +448,8 @@ a:hover {
 @media (min-width: 768px) { 
 
 .logo {
-    width: 400px;
+    width: 77%;
+    margin-left: -5%;
     /*float: left;*/
     /*margin-left: 1%;*/
     /*margin-top: 1%;*/
