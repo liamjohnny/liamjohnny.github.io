@@ -139,7 +139,7 @@
 }
 
 .logo {
-    width: 200px;
+    width: 90%;
     /*float: left;*/
     /*margin-left: 1%;*/
     /*margin-top: 1%;*/
@@ -160,7 +160,7 @@
 
 .juicer-feed.loaded {
     padding: 0% 4% 0% 0%;
-    max-width: 78%;
+    max-width: 100%;
     top: 0%;
 }
 
@@ -231,6 +231,10 @@ html, body {
 hr {
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.buffer {
+    margin: 5% 5%;
 }
 
 .header {
@@ -449,10 +453,16 @@ a:hover {
 
 .logo {
     width: 77%;
-    margin-left: -5%;
+    padding: 20px;
+    margin-left: -1%;
+    
     /*float: left;*/
     /*margin-left: 1%;*/
     /*margin-top: 1%;*/
+}
+
+.buffer {
+    margin: 0% 12%;
 }
 
 .navbar-nav {
